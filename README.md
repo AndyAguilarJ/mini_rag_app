@@ -76,6 +76,8 @@ venv\Scripts\activate   # Windows
 
 ```bash
 pip install -r requirements.txt
+
+llama.cpp is already in this repo, so the installation will be skipped for llama.cpp
 ```
 
 ---

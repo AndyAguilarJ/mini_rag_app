@@ -14,8 +14,12 @@ dist/
 *.spec
 
 # LLM / data
-models/
-data/
+models/*
+!models/.gitkeep
+
+data/*
+!data/.gitkeep
+
 *.gguf
 
 # OS files
@@ -24,3 +28,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+.env
+*.env
